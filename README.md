@@ -18,7 +18,6 @@ class Program
     {}
 } 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Constructor-in-C%23/Constructor-in-C%23-Types-img1.png" alt="Constructor-in-C#-Types-img1" width="900" height="563" class="blend-mode">
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-backend-arch-diagram.png?raw=true"><img src="https://github.com/amitshekhariitbhu/go-backend-clean-architecture/raw/main/assets/go-backend-arch-diagram.png?raw=true" alt="Go Backend Clean Architecture Diagram" style="max-width: 100%;"></a>
 2. Parameterized Constructor : A constructor with parameter is called Parameterized Constructor.
 class Program
 {
