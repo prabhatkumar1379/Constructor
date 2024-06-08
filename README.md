@@ -127,7 +127,7 @@ To test Parameterized Constructors, add a new class in our project naming it as 
  <p dir="auto">
   2.Parameterized Constructor : A constructor with parameter is called Parameterized Constructor.
  </p>p>
-<b></b>3.Copy Constructor </b>: It created an object by copying variables from another object.
+<b>3.Copy Constructor </b>: It created an object by copying variables from another object.
 <p dir="auto">
 The constructor takes a parameter of class type is called the copy constructor and this constructor is used to copy one object data into another object. The main purpose of the copy constructor is to initialize a new object (instance) with the values of an existing object (instance).
 
