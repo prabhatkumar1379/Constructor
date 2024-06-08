@@ -81,7 +81,6 @@ class Test
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Constructor-in-C%23/Constructor-in-C%23-Types-img1.png" alt="Constructor-in-C#-Types-img1" width="900" height="563" class="blend-mode">
 
  1.Default Constructor: A constructor without parameter is called Default Constructor.
--------------------
 
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>pppp
 - ---
@@ -95,8 +94,6 @@ class Test
 </svg>
     </clipboard-copy>
   </div></div>
-
--------------------
  
  
   2.Parameterized Constructor : A constructor with parameter is called Parameterized Constructor.
