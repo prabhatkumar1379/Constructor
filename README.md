@@ -2,8 +2,8 @@
 Going to discuss all the constructor in c#
 Constructor
 -----------
-<h3>1>A Constructor of a class must be same as class name </h3>
-<h3>2>A Constructor can not be the abstract ,final, Synchronized.</h3>
+<h4>1>A Constructor of a class must be same as class name </h4>
+<p>2>A Constructor can not be the abstract ,final, Synchronized.</p>
 <h3>3>A Constructor doesn't have any return type ,not even void.</h3>
 <h3>4>A Constructor without access specifier is Private Constructor.</h3>
 <h3>5>Access modifier can be used in constructor declaration to control its access.</h3>
