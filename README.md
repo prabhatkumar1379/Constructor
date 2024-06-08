@@ -154,17 +154,31 @@ That means this constructor is used to copy the data of an existing object into 
     </clipboard-copy>
   </div></div>
 
-4.Static Constructor : When a constructor is created using a static keyword, it will invoked only once from all of the instances of the class.
-class Program
+<b>4.Static Constructor </b>: When a constructor is created using a static keyword, it will invoked only once from all of the instances of the class.
+
+<p dir="auto">
+We can create a constructor as static and when a constructor is created as static, it will be invoked only once. There is no matter how many numbers of instances (objects) of the class are created but it is going too invoked only once and that is during the creation of the first instance (object) of the class.
+
+The static constructor is used to initialize static fields of the class and we can also write some code inside the static constructor that needs to be executed only once.
+
+Static data fields are created only once in a class even though we are created any number of objects.
+</p>
+<ul>
+   
+ <li>There can be only one static constructor in a class.</li>
+ <li>The static constructor should be without any parameter.</li>
+ <li>It can only access the static members of the class.</li>
+ <li>There should not be any access modifier in the static constructor definition.</li>
+ <li>If a class is static then we cannot create the object for the static class.</li>
+ <li>Static constructor will be invoked only once i.e. at the time of first object creation of the class, from 2nd object creation onwards static constructor will not be called.</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>class Program
 {
     static Program()
     {
     }
 
 }
-
-
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>Comming soon . . .
 </code></pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w"   tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
