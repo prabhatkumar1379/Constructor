@@ -85,8 +85,30 @@ class Test
  1.Default Constructor: A constructor without parameter is called Default Constructor.
 
 <img src="https://github.com/prabhatkumar1379/Constructor/blob/main/DefaultConstructor.png" alt="Constructor-in-C#-Types-img1" width="900" height="563" class="blend-mode">
+<p dir="auto">
 
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code> Comming SOON . . .
+Default constructors can be defined either explicitly or will be defined implicitly provided there is no explicit constructor defined under that class, whereas implicit constructors will never be parameterized i.e., if a constructor is parameterized then it is very sure, that it is an explicit constructor.
+
+Note: if Constructors of a class are parameterized then values to those parameters should be sent while creating instance of that class.
+To test Parameterized Constructors, add a new class in our project naming it as “ParamConDemo.cs” and write the below code in it:
+
+</p>
+
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code> internal class ParamConDemo
+{
+  public ParamConDemo(int i)
+  {
+    Console.WriteLine($"Parameterized constructor is called: {i}"); 
+  }
+  static void Main()
+  {
+    ParamConDemo cd1 = new ParamConDemo(100);
+    ParamConDemo cd2 = new ParamConDemo(200);
+    ParamConDemo cd3 = new ParamConDemo(300);
+    Console.ReadLine(); 
+  }
+}
+
 </code></pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w"   tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
