@@ -2,7 +2,7 @@
 Going to discuss all the constructor in c#
 Constructor
 -----------
-1>A Constructor of a class must be same as class name 
+<h1></h1>1>A Constructor of a class must be same as class name <h1/>
 2>A Constructor can not be the abstract ,final, Synchronized.
 3>A Constructor doesn't have any return type ,not even void.
 4>A Constructor without access specifier is Private Constructor.
