@@ -11,12 +11,13 @@ Constructor
 <p>7>A static constructor can not be parameterized constructor.</p>
 <p>8>Within a class we can created only one constructor.</p>
 <p><b>Types of Constructor in c#</b></p>
-<text>1.Default Constructor: A constructor without parameter is called Default Constructor.
+ 1.Default Constructor: A constructor without parameter is called Default Constructor.
 class Program
 {
     public Program()
     {}
-}</text>
+} 
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-backend-arch-diagram.png?raw=true"><img src="https://github.com/amitshekhariitbhu/go-backend-clean-architecture/raw/main/assets/go-backend-arch-diagram.png?raw=true" alt="Go Backend Clean Architecture Diagram" style="max-width: 100%;"></a>
 2. Parameterized Constructor : A constructor with parameter is called Parameterized Constructor.
 class Program
 {
