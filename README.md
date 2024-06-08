@@ -1,16 +1,18 @@
 # Constructor
-Going to discuss all the constructor in c#
+
 Constructor
------------
-<p>1>A Constructor of a class must be same as class name </p>
-<p>2>A Constructor can not be the abstract ,final, Synchronized.</p>
-<p>3>A Constructor doesn't have any return type ,not even void.</p>
-<p>4>A Constructor without access specifier is Private Constructor.</p>
-<p>5>Access modifier can be used in constructor declaration to control its access.</p>
-<p>6>if we don't create a constructor then compilar will create a default constructor.</p>
-<p>7>A static constructor can not be parameterized constructor.</p>
-<p>8>Within a class we can created only one constructor.</p>
----------------------
+<ul>
+    <li>A Constructor of a class must be same as class name</li>
+    <li>A Constructor cannot be abstract, final, synchronized.</li>
+    <li>A Constructor doesn't have any return type, not even void.</li>
+    <li>A Constructor without access specifier is Private Constructor.</li>
+    <li>Access modifier can be used in constructor declaration to control its access.</li>
+    <li>If we don't create a constructor then compiler will create a default constructor.</li>
+    <li>A static constructor cannot be parameterized constructor.</li>
+    <li>Within a class, we can create only one constructor.</li>
+</ul>
+
+ 
 <h3>What is Constructor</h3>
 <p dir="auto">
 Constructor is a special method present under a class which is responsible for Initializing the data member(fields) of that class.
