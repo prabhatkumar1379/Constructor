@@ -9,7 +9,7 @@ Constructor
     <li>Access modifier can be used in constructor declaration to control its access.</li>
     <li>If we don't create a constructor then compiler will create a default constructor.</li>
     <li>A static constructor cannot be parameterized constructor.</li>
-    <li>Within a class, we can create only one constructor.</li>
+    <li>Within a class, we can create only one constructor. </li>
 </ul>
 
  
@@ -79,7 +79,8 @@ class Test
 --------------------
 
 
-<p><b>Types of Constructor in c#</b></p>
+<p>
+    <b>Types of Constructor in c#</b></p>
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Constructor-in-C%23/Constructor-in-C%23-Types-img1.png" alt="Constructor-in-C#-Types-img1" width="900" height="563" class="blend-mode">
 
  1.Default Constructor: A constructor without parameter is called Default Constructor.
